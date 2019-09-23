@@ -1,0 +1,354 @@
+{
+  "credits_monthly_total": 1000, 
+  "uuid": "", 
+  "data_type": "alpr_results", 
+  "epoch_time": 1567229612294, 
+  "processing_time": {
+    "plates": 81.53092956542969, 
+    "total": 344.91799998795614, 
+    "vehicles": 193.50300000223797
+  }, 
+  "img_width": 3096, 
+  "results": [
+    {
+      "plate": "KA03MP0531", 
+      "confidence": 94.6132583618164, 
+      "region_confidence": 0, 
+      "vehicle_region": {
+        "y": 0, 
+        "x": 756, 
+        "width": 2165, 
+        "height": 2165
+      }, 
+      "region": "", 
+      "plate_index": 0, 
+      "matches_template": 0, 
+      "candidates": [
+        {
+          "matches_template": 0, 
+          "plate": "KA03MP0531", 
+          "confidence": 94.6132583618164
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03M0531", 
+          "confidence": 85.21588897705078
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03MP051", 
+          "confidence": 85.21490478515625
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03MR0531", 
+          "confidence": 85.11788177490234
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03MP0521", 
+          "confidence": 85.11709594726562
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03M051", 
+          "confidence": 75.8175277709961
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03M0521", 
+          "confidence": 75.7197265625
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03MR051", 
+          "confidence": 75.71952819824219
+        }, 
+        {
+          "matches_template": 0, 
+          "plate": "KA03MR0521", 
+          "confidence": 75.6217269897461
+        }
+      ], 
+      "coordinates": [
+        {
+          "y": 1148, 
+          "x": 1635
+        }, 
+        {
+          "y": 1100, 
+          "x": 2336
+        }, 
+        {
+          "y": 1299, 
+          "x": 2336
+        }, 
+        {
+          "y": 1351, 
+          "x": 1639
+        }
+      ], 
+      "vehicle": {
+        "orientation": [
+          {
+            "confidence": 85.78556823730469, 
+            "name": "45"
+          }, 
+          {
+            "confidence": 11.786138534545898, 
+            "name": "0"
+          }, 
+          {
+            "confidence": 2.4152181148529053, 
+            "name": "315"
+          }, 
+          {
+            "confidence": 0.008139568381011486, 
+            "name": "225"
+          }, 
+          {
+            "confidence": 0.0027278235647827387, 
+            "name": "270"
+          }, 
+          {
+            "confidence": 0.0011099966941401362, 
+            "name": "180"
+          }, 
+          {
+            "confidence": 0.0009067654027603567, 
+            "name": "missing"
+          }, 
+          {
+            "confidence": 0.00014956601080484688, 
+            "name": "135"
+          }, 
+          {
+            "confidence": 4.227986573823728e-05, 
+            "name": "90"
+          }
+        ], 
+        "color": [
+          {
+            "confidence": 99.97087097167969, 
+            "name": "white"
+          }, 
+          {
+            "confidence": 0.02390645258128643, 
+            "name": "silver-gray"
+          }, 
+          {
+            "confidence": 0.004651795141398907, 
+            "name": "gold-beige"
+          }, 
+          {
+            "confidence": 0.00034245813731104136, 
+            "name": "yellow"
+          }, 
+          {
+            "confidence": 5.943844007560983e-05, 
+            "name": "blue"
+          }, 
+          {
+            "confidence": 5.667622099281289e-05, 
+            "name": "black"
+          }, 
+          {
+            "confidence": 5.109757694299333e-05, 
+            "name": "red"
+          }, 
+          {
+            "confidence": 2.5299574190285057e-05, 
+            "name": "orange"
+          }, 
+          {
+            "confidence": 1.254181370313745e-05, 
+            "name": "pink"
+          }, 
+          {
+            "confidence": 6.5401900428696536e-06, 
+            "name": "purple"
+          }
+        ], 
+        "make": [
+          {
+            "confidence": 99.58185577392578, 
+            "name": "volkswagen"
+          }, 
+          {
+            "confidence": 0.14583854377269745, 
+            "name": "maruti-suzuki"
+          }, 
+          {
+            "confidence": 0.06551022827625275, 
+            "name": "skoda"
+          }, 
+          {
+            "confidence": 0.04625409096479416, 
+            "name": "renault"
+          }, 
+          {
+            "confidence": 0.02265472710132599, 
+            "name": "honda"
+          }, 
+          {
+            "confidence": 0.017806880176067352, 
+            "name": "caravans-wohnm"
+          }, 
+          {
+            "confidence": 0.016483094543218613, 
+            "name": "hyundai"
+          }, 
+          {
+            "confidence": 0.012909123674035072, 
+            "name": "chevrolet"
+          }, 
+          {
+            "confidence": 0.009497744962573051, 
+            "name": "fiat"
+          }, 
+          {
+            "confidence": 0.009208541363477707, 
+            "name": "geely"
+          }
+        ], 
+        "body_type": [
+          {
+            "confidence": 48.24588394165039, 
+            "name": "sedan-standard"
+          }, 
+          {
+            "confidence": 29.017929077148438, 
+            "name": "sedan-compact"
+          }, 
+          {
+            "confidence": 19.168909072875977, 
+            "name": "van-mini"
+          }, 
+          {
+            "confidence": 1.6434249877929688, 
+            "name": "suv-crossover"
+          }, 
+          {
+            "confidence": 1.211604356765747, 
+            "name": "truck-standard"
+          }, 
+          {
+            "confidence": 0.4817103445529938, 
+            "name": "sedan-wagon"
+          }, 
+          {
+            "confidence": 0.14830486476421356, 
+            "name": "van-full"
+          }, 
+          {
+            "confidence": 0.032128095626831055, 
+            "name": "sedan-sports"
+          }, 
+          {
+            "confidence": 0.016740206629037857, 
+            "name": "suv-standard"
+          }, 
+          {
+            "confidence": 0.015881763771176338, 
+            "name": "tractor-trailer"
+          }
+        ], 
+        "year": [
+          {
+            "confidence": 78.7913818359375, 
+            "name": "2010-2014"
+          }, 
+          {
+            "confidence": 18.218656539916992, 
+            "name": "2015-2019"
+          }, 
+          {
+            "confidence": 2.9863781929016113, 
+            "name": "2005-2009"
+          }, 
+          {
+            "confidence": 0.0034112061839550734, 
+            "name": "2000-2004"
+          }, 
+          {
+            "confidence": 0.00012993114069104195, 
+            "name": "1995-1999"
+          }, 
+          {
+            "confidence": 2.5341443688375875e-05, 
+            "name": "1990-1994"
+          }, 
+          {
+            "confidence": 5.758238330599852e-06, 
+            "name": "missing"
+          }, 
+          {
+            "confidence": 2.832616701198276e-06, 
+            "name": "1985-1989"
+          }, 
+          {
+            "confidence": 1.0430198926769663e-06, 
+            "name": "1980-1984"
+          }
+        ], 
+        "make_model": [
+          {
+            "confidence": 38.11723709106445, 
+            "name": "volkswagen_touran"
+          }, 
+          {
+            "confidence": 19.614580154418945, 
+            "name": "volkswagen_vento"
+          }, 
+          {
+            "confidence": 12.660188674926758, 
+            "name": "volkswagen_polo"
+          }, 
+          {
+            "confidence": 6.416856288909912, 
+            "name": "volkswagen_jetta"
+          }, 
+          {
+            "confidence": 3.6351523399353027, 
+            "name": "volkswagen_polo-vivo"
+          }, 
+          {
+            "confidence": 3.6057076454162598, 
+            "name": "volkswagen_spacefox"
+          }, 
+          {
+            "confidence": 2.6988844871520996, 
+            "name": "volkswagen_cross-polo"
+          }, 
+          {
+            "confidence": 1.0868359804153442, 
+            "name": "volkswagen_caddy"
+          }, 
+          {
+            "confidence": 1.0032684803009033, 
+            "name": "volkswagen_fox"
+          }, 
+          {
+            "confidence": 0.8761167526245117, 
+            "name": "volkswagen_saveiro"
+          }
+        ]
+      }, 
+      "processing_time_ms": 20.181367874145508, 
+      "requested_topn": 10
+    }
+  ], 
+  "credits_monthly_used": 15, 
+  "img_height": 4128, 
+  "version": 2, 
+  "error": false, 
+  "regions_of_interest": [
+    {
+      "y": 0, 
+      "x": 0, 
+      "width": 3096, 
+      "height": 4128
+    }
+  ], 
+  "credit_cost": 1
+}
