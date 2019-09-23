@@ -6,9 +6,9 @@ import json
 
 # Sample image file is available at http://plates.openalpr.com/ea7the.jpg
 IMAGE_PATH = '20190831_095103.jpg'
-IMAGE_PATH = 'vehicles_3_sep/095343.jpg'
+IMAGE_PATH = 'vehicles_23_sep_2019/20190923_100343.jpg'
 
-SECRET_KEY = 'sk_0678...'
+SECRET_KEY = 'sk_06..'
 
 with open(IMAGE_PATH, 'rb') as image_file:
     img_base64 = base64.b64encode(image_file.read())
