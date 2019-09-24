@@ -8,7 +8,7 @@ import json
 IMAGE_PATH = '20190831_095103.jpg'
 IMAGE_PATH = 'vehicles_23_sep_2019/20190923_100343.jpg'
 
-SECRET_KEY = 'sk_06..'
+SECRET_KEY = 'sk_067..'
 
 with open(IMAGE_PATH, 'rb') as image_file:
     img_base64 = base64.b64encode(image_file.read())
